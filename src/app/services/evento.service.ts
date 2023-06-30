@@ -8,7 +8,7 @@ import { take } from 'rxjs/operators';
 // { providedIn: 'root'}
 )
 export class EventoService {
-  baseURL = 'https://localhost:5001/api/eventos';
+  baseURL = 'https://localhost:7293/api/Eventos';
 
   constructor(private http: HttpClient) { }
 
